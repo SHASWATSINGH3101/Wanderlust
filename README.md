@@ -1,6 +1,3 @@
----
-
-```markdown
 # 🌍 Wanderlust - AI-Powered Travel Itinerary Generator
 <img src='https://github.com/SHASWATSINGH3101/Wanderlust/blob/main/asset/logo.png' alt="wanderlust" width="350">
 
@@ -21,11 +18,6 @@ Check out the live version on Hugging Face Spaces:
 - 🤖 **AI-Powered Itinerary Generation**: Generates a detailed multi-day itinerary based on preferences and search results.
 - 🔄 **Restart Option**: Easily start over and plan a new trip.
 - 🛠️ **Seamless Gradio Interface**: User-friendly chatbot interface built using Gradio.
-
----
-
-## 🖥️ Demo Preview
-![Demo GIF](https://github.com/SHASWATSINGH3101/Wanderlust/blob/main/asset/demo.gif)
 
 ---
 
@@ -87,6 +79,7 @@ Bot: Hello! Ready to plan your next trip? Type 'START' to begin.
 User: START
 Bot: Great! Where would you like to go?
 User: Paris, France
+and so on....
 ...
 ```
 
@@ -174,3 +167,6 @@ Pull requests are welcome! Please check out the [CONTRIBUTING.md](CONTRIBUTING.m
 For any inquiries, reach out to:
 
 - **GitHub:** [SHASWATSINGH3101](https://github.com/SHASWATSINGH3101)
+
+Happy Traveling! ✈️🌟
+

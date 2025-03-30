@@ -2,7 +2,7 @@
 ---
 
 # 🌍 Wanderlust - AI-Powered Travel Itinerary Generator
-https://github.com/SHASWATSINGH3101/Wanderlust/blob/main/asset/logo.png
+<img src='https://github.com/SHASWATSINGH3101/Wanderlust/blob/main/asset/logo.png' alt="wanderlust" width="350">
 Wanderlust is an AI-powered travel itinerary generator that helps users plan their trips effortlessly by asking a series of questions and generating personalized travel recommendations. It uses **LangChain**, **Groq's Llama3-8B-8192 model**, and **TavilySearch** to create highly customized itineraries based on user preferences.
 
 ---

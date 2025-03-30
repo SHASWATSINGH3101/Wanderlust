@@ -1,9 +1,16 @@
+---
+
+```markdown
+# 🌍 Wanderlust - AI-Powered Travel Itinerary Generator
+<img src='https://github.com/SHASWATSINGH3101/Wanderlust/blob/main/asset/logo.png' alt="wanderlust" width="350">
+
+Wanderlust is an AI-powered travel itinerary generator that helps users plan their trips effortlessly by asking a series of questions and generating personalized travel recommendations. It uses **LangChain**, **Groq's Llama3-8B-8192 model**, and **TavilySearch** to create highly customized itineraries based on user preferences.
 
 ---
 
-# 🌍 Wanderlust - AI-Powered Travel Itinerary Generator
-<img src='https://github.com/SHASWATSINGH3101/Wanderlust/blob/main/asset/logo.png' alt="wanderlust" width="350">
-Wanderlust is an AI-powered travel itinerary generator that helps users plan their trips effortlessly by asking a series of questions and generating personalized travel recommendations. It uses **LangChain**, **Groq's Llama3-8B-8192 model**, and **TavilySearch** to create highly customized itineraries based on user preferences.
+## 🎯 Live Demo
+Check out the live version on Hugging Face Spaces:
+👉 [Wanderlust - AI-Powered Travel Itinerary Generator](https://huggingface.co/spaces/SHASWATSINGH3101/Wanderlust)
 
 ---
 
@@ -14,6 +21,11 @@ Wanderlust is an AI-powered travel itinerary generator that helps users plan the
 - 🤖 **AI-Powered Itinerary Generation**: Generates a detailed multi-day itinerary based on preferences and search results.
 - 🔄 **Restart Option**: Easily start over and plan a new trip.
 - 🛠️ **Seamless Gradio Interface**: User-friendly chatbot interface built using Gradio.
+
+---
+
+## 🖥️ Demo Preview
+![Demo GIF](https://github.com/SHASWATSINGH3101/Wanderlust/blob/main/asset/demo.gif)
 
 ---
 
@@ -34,6 +46,8 @@ python -m venv wanderlust-env
 # For Windows
 wanderlust-env\Scripts\activate
 
+# For macOS/Linux
+source wanderlust-env/bin/activate
 ```
 
 ### 3. Install Dependencies
@@ -47,6 +61,10 @@ Create a `.env` file in the root directory and add the following:
 TAVILY_API_KEY=your_tavily_api_key
 GROQ_API_KEY=your_groq_api_key
 ```
+
+👉 **API Key Setup:**
+- Get your [Tavily API Key](https://tavily.com/)
+- Get your [Groq API Key](https://groq.com/)
 
 ---
 
@@ -63,19 +81,14 @@ Visit the link provided in your terminal, usually:
 http://127.0.0.1:7860
 ```
 
----
-
-## 💬 How It Works
-
-1. **Start the Process**: Type `START` to begin.
-2. **Answer the Questions**: The bot will ask you a series of questions to understand your preferences.
-    - Destination
-    - Budget
-    - Preferred Activities
-    - Duration of Stay
-    - Accommodation Type
-3. **Receive Your Itinerary**: Once all the questions are answered, a detailed itinerary is generated.
-4. **Restart Anytime**: Use the `Start Over` button to begin again.
+### 3. Example Interaction
+```
+Bot: Hello! Ready to plan your next trip? Type 'START' to begin.
+User: START
+Bot: Great! Where would you like to go?
+User: Paris, France
+...
+```
 
 ---
 
@@ -100,7 +113,9 @@ http://127.0.0.1:7860
 📁 wanderlust
 ├── 📄 wanderlust.py          # Main script with Gradio interface and logic
 ├── 📄 requirements.txt       # Dependencies
-└── 📄 .env                   # API keys for Groq and Tavily (ignored in Git)
+├── 📄 .env                   # API keys for Groq and Tavily (ignored in Git)
+└── 📂 asset
+    └── 📄 logo.png           # Logo image
 ```
 
 ---
@@ -130,13 +145,28 @@ pip install gradio langchain_groq langchain_tavily python-dotenv
 
 ---
 
+## 💻 System Requirements
+- Python 3.8+
+- Compatible with Windows, macOS, and Linux
+
+---
+
+## 📝 Virtual Environment Deactivation
+```bash
+# Deactivate the virtual environment after usage
+# For Windows/macOS/Linux
+deactivate
+```
+
+---
+
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to modify.
+Pull requests are welcome! Please check out the [CONTRIBUTING.md](CONTRIBUTING.md) before making any changes.
 
 ---
 
@@ -144,9 +174,3 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 For any inquiries, reach out to:
 
 - **GitHub:** [SHASWATSINGH3101](https://github.com/SHASWATSINGH3101)
-
-Happy Traveling! ✈️🌟
-
----
-
-Let me know if you need any modifications or additions! 😊

@@ -13,3 +13,4 @@ langgraph-prebuilt
 langgraph-sdk
 langsmith
 python-dotenv
+gradio
